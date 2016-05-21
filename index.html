@@ -120,6 +120,8 @@
     
       ga('create', 'UA-78129606-1', 'auto');
       ga('send', 'pageview');
+      
+      dataLayer = [];
     </script>
   </head>
   <body>
@@ -137,7 +139,8 @@
         <h1 class="display-3 header">Dressed</h1>
         <p class="lead">Advice from Fashion Influencers</p>
         <hr class="m-y-2">
-        <a class="btn btn-secondary btn-lg hero-button" href="#email-now"  id="get-advice" role="button">Get Advice Now</a>
+        <a class="btn btn-secondary btn-lg hero-button" href="#email-now" onclick="dataLayer.push({'event': 'get-advice-click'});"
+        id="get-advice" role="button">Get Advice Now</a>
     </div>
 
     <div class="row card-row">
@@ -175,11 +178,11 @@
                 <div class="col-md-6">
                     <p class="lead">Be one of the first!</p>
                     <p class="card-text">The mobile app is coming soon, but that doesn't me you can't get advice right now. Send us an email at:</p>
-                    <a role="button" id="email-link"
+                    <a role="button" id="email-link" onclick="dataLayer.push({'event': 'email-link-click'});"
                     href="mailto:dressedapp@gmail.com?&amp;subject=Dressed%20App%20Advice&amp;body=Attach%20a%20few%20photos%20and%20add%20a%20description"
                     >DressedApp@gmail.com</a>
                     <hr class="m-y-2">
-                    <a class="btn btn-secondary btn-lg hero-bottom-button" role="button" id="email-btn"
+                    <a class="btn btn-secondary btn-lg hero-bottom-button" role="button" id="email-btn" onclick="dataLayer.push({'event': 'email-btn-click'});"
                     href="mailto:dressedapp@gmail.com?&amp;subject=Dressed%20App%20Advice&amp;body=Attach%20a%20few%20photos%20and%20add%20a%20description"
                     >Email Us Now</a>
                 </div>
