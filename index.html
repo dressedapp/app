@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <style>
+        .flex-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1.header {
+            font-weight: 100;
+            font-size: 5.5rem;
+            letter-spacing: 10px;
+        }
+        div.jumbotron {
+            margin-bottom: 0px;
+            border-radius: 0px;
+        }
+        .jumbotron.top-hero {
+            background-image: -webkit-linear-gradient(left, #ef4db6, #c643fc); /* For Chrome and Safari */
+            background-image:    -moz-linear-gradient(left, #ef4db6, #c643fc); /* For old Fx (3.6 to 15) */
+            background-image:     -ms-linear-gradient(left, #ef4db6, #c643fc); /* For pre-releases of IE 10*/
+            background-image:      -o-linear-gradient(left, #ef4db6, #c643fc); /* For old Opera (11.1 to 12.0) */
+            background-image:         linear-gradient(to right, #ef4db6, #c643fc); /* Standard syntax; must be last */
+            color: antiquewhite;
+        }
+        .jumbotron.bottom-hero {
+            background: url('./app.png');
+        }
+        a.hero-button {
+            background-color: transparent;
+            border-radius: 0px;
+            border: 2px antiquewhite solid;
+            color: antiquewhite;
+            font-family: 'Helvetica Neue';
+            font-weight: 200;
+            letter-spacing: 3px;
+            transition: all 0.3s ease 0s;
+        }
+        a.hero-button:hover {
+            background-color: white;
+            border: 2px white solid;
+            color: #9d9d9d;
+        }
+        a.hero-bottom-button {
+            background-color: #c643fc;
+            border-radius: 0px;
+            border: 2px #c643fc solid;
+            color: #fff;
+            font-family: 'Helvetica Neue';
+            font-weight: 200;
+            letter-spacing: 3px;
+            transition: all 0.3s ease 0s;
+        }
+        a.hero-bottom-button:hover {
+            background-color: #EF4DB6;
+            border: 2px #EF4DB6 solid;
+            color: #fff;
+        }
+        p.lead {
+          letter-spacing: 3px;
+          font-family: Raleway;
+          text-transform: uppercase;
+          margin-top: 10px;
+        }
+        div.card-override {
+          text-align: center;
+          border: none;
+        }
+        div.card-override h3.card-title {
+          font-family: Raleway;
+        }
+        div.card-override p.card-text {
+          font-family: 'Helvetica Neue';
+          letter-spacing: 1px;
+        }
+        .icon-circle {
+          width: 90px;
+          height: 90px;
+          display: inline-block;
+          border-radius: 45px;
+          margin-bottom: 20px;
+          background-image: -webkit-linear-gradient(left, #ef4db6, #c643fc); /* For Chrome and Safari */
+          background-image:    -moz-linear-gradient(left, #ef4db6, #c643fc); /* For old Fx (3.6 to 15) */
+          background-image:     -ms-linear-gradient(left, #ef4db6, #c643fc); /* For pre-releases of IE 10*/
+          background-image:      -o-linear-gradient(left, #ef4db6, #c643fc); /* For old Opera (11.1 to 12.0) */
+          background-image:         linear-gradient(to right, #ef4db6, #c643fc); /* Standard syntax; must be last */
+        }
+        .card-icon {
+          font-size: 40px;
+          padding-top: 24px;
+          color: #fff;
+        }
+        .card-icon.fa-thumbs-o-up {
+          transform: rotate(-30deg);
+          padding-right: 10px;
+        }
+        div.card-row {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            background-color: rgba(211,211,211,.3);
+        }
+        .card-row .card {
+            background-color: transparent;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="jumbotron top-hero flex-center">
+        <img src="./fadedBar.png" />
+        <h1 class="display-3 header">Dressed</h1>
+        <p class="lead">Advice from Fashion Influencers</p>
+        <hr class="m-y-2">
+        <a class="btn btn-secondary btn-lg hero-button" href="#email-now" role="button">Get Advice Now</a>
+    </div>
+
+    <div class="row card-row">
+        <div class="col-sm-4">
+            <div class="card card-block card-override">
+                <span class="icon-circle">
+                  <i class="fa fa-camera-retro card-icon" aria-hidden="true"></i>
+                </span>
+                <h3 class="card-title">Get Celeb Treatment</h3>
+                <p class="card-text">You're unique, and so are the tips you'll get form your assigned stylist.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card card-block card-override">
+                <span class="icon-circle">
+                  <i class="fa fa-thumbs-o-up card-icon" aria-hidden="true"></i>
+                </span>
+                <h3 class="card-title">Feel Confident</h3>
+                <p class="card-text">Get advice from professionals .</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card card-block card-override">
+                <span class="icon-circle">
+                  <i class="fa fa-eye card-icon" aria-hidden="true"></i>
+                </span>
+                <h3 class="card-title">Look Your Best</h3>
+                <p class="card-text">Pick up tips so you can be your best you.</p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bottom-hero flex-center">
+            <h1 class="display-3 header" id="email-now">Try Dressed Now</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead">Be one of the first!</p>
+                    <p class="card-text">The mobile app is coming soon, but that doesn't me you can't get advice right now. Send us an email at:</p>
+                    <a role="button"
+                    href="mailto:dressedapp@gmail.com?&amp;subject=Dressed%20App%20Advice&amp;body=Attach%20a%20few%20photos%20and%20add%20a%20description"
+                    >DressedApp@gmail.com</a>
+                    <hr class="m-y-2">
+                    <a class="btn btn-secondary btn-lg hero-bottom-button" role="button"
+                    href="mailto:dressedapp@gmail.com?&amp;subject=Dressed%20App%20Advice&amp;body=Attach%20a%20few%20photos%20and%20add%20a%20description"
+                    >Email Us Now</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+    </div>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script> -->
+  </body>
+</html>
